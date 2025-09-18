@@ -38,9 +38,9 @@ public class Main {
 
         var hour = 640;
         var work = 8;
-        var people = hour / 8;
+        var people = hour / work;
         var mostPeople = people + 94;
-        var work1 = hour / mostPeople;
+        var work1 = work * mostPeople;
         System.out.println("Всего работников в компании " + people + " человек");
         System.out.println("Если в компании работает " + mostPeople + " человек то всего " + work1 + " часов работы может быть поделено между сотрудниками");
 
